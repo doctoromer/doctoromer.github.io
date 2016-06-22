@@ -19,7 +19,7 @@ div {
     text-align: center;
     color: white;
     height: 33%;
-    /*border: 1px solid white;*/
+
 }
 
 span {
@@ -45,4 +45,12 @@ span {
     background: -webkit-linear-gradient(red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#in-love, #doctor {
+    font-size: 48px;
+}
+
+#doctor {
+    color: blue;
 }
