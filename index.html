@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>main page</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            var zohar = $("#zohar")
+            var fucking = $("#fucking")
+            var hochman = $("#hochman")
+
+            zohar.
+                delay(500).
+                show(0).
+                delay(2500).
+                queue(function() {
+                    zohar.remove();
+                })
+
+            fucking.
+                delay(1000).
+                show(0).
+                delay(2000).
+                queue(function() {
+                    fucking.remove();
+                })
+
+            hochman.
+                delay(1500).
+                show(0).
+                delay(1500).
+                queue(function() {
+                    hochman.remove();
+                })
+
+            var frame1 = $("#frame1")
+            frame1.delay(3000).queue(function() {
+                frame1.remove()
+            })
+            $("#frame2").delay(3000).show(0)
+
+            var withMe = $("#with-me")
+            var toProm = $("#to-prom")
+
+            withMe.
+                delay(3300).
+                show(0)
+
+            toProm.
+                delay(3800).
+                show(0)
+
+        })
+
+    
+    </script>
+</head>
+
+<body dir="rtl">
+    <div id="frame1" class="frame">
+        <div id="zohar" hidden>
+            <br>
+            זוהר
+        </div>
+        <div id="fucking" hidden>
+            פאקינג
+        </div>
+        <div id="hochman" hidden>
+            הוכמן
+        </div>
+    </div>
+
+    <div id="frame2" class="frame" hidden>
+        <span id="go">תצאי</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="with-me" hidden>איתי</span>
+        <div id="to-prom" hidden>לפרום?</div>
+    </div>
+</body>
+
+</html>

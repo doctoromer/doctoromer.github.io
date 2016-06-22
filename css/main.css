@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.frame {
+    font: 15px arial, sans-serif;
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    height: 98%;
+}
+
+div {
+    text-align: center;
+    color: white;
+    height: 33%;
+    /*border: 1px solid white;*/
+}
+
+span {
+    font-size: 72px;
+}
+
+#zohar {
+    font-size: 72px;
+}
+
+#fucking {
+    font-size: 144px;
+    color: red;
+}
+
+#hochman {
+    font-size: 72px;
+}
+
+#to-prom {
+    font-size: 256px;
+    height: 300px;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
